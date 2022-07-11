@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            registration form
+        </title>
+    </head>
+    <body>
+        
+        <form>
+            <fieldset>
+                <legend><h3> student registration form</h3></legend>
+            
+            <table>
+                <tbody>
+                <tr>
+                    <td>
+                        <label for="first name">first name</label>
+                    </td>
+                    <td> <input type="text" id="first name" placeholder="only first name"></td>
+                </tr>
+                <tr>
+                    <td><label>last name</label></td>
+                    <td><input type="text" placeholder="only last name"></td>
+                </tr>
+                <tr>
+                    <td> <label>mobile no with country code</label></td>
+                    <td><input type="number" required placeholder="enter with countrycode"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>email</label></td>
+                        <td><input type="email" required></td>
+                </tr>
+               
+                <tr>
+                    <td><label>password</label></td>
+                    <td><input type="password" required></td>
+                </tr>
+                
+                <tr>
+                    <td><label>country</label></td>
+                    <td><input type="text"value="INDIA" readonly></td>
+                </tr>
+                <tr>
+                    <td><label >do you have bank account</label></td>
+                    <td><input type="text" value="YES" disabled></td>
+                </tr>
+                <tr>
+                    <td><label>address</label></td>
+                    <td><textarea cols="26" rows="8"></textarea></td>
+                </tr> <tr>
+                    <td><label>date of birth</label></td>
+                    <td><input type="date"></td>
+                    
+                </tr>
+                <tr>
+                    <td><label>week available</label></td>
+                    <td> <input type="week"></td>
+                </tr>
+                <tr>
+                    <td><label>prefered time</label></td>
+                    <td> <input type="time"></td>
+                </tr>
+               <tr> <td><label>profile photo</label></td>
+                <td> <input type="file"></td></tr>
+                <tr> <td><label>select certificate</label></td>
+                    <td> <input type="file" multiple ></td></tr>
+                    <tr> <td><label>select graduation</label></td>
+                        <td> 
+                            <select>
+                                <option>BE</option>
+                                <option>BCA</option>
+                                <option>MBA</option>
+                                <option>BCS</option>
+                            </select>
+                        </td></tr>
+                        <tr>
+                            <td><label>select graduation </label></td>
+                            <td><select>
+                                <optgroup label ="bachelor of engg">
+                                <option>CSE</option>
+                                <option>Mech</option>
+                                <option>ENTC</option>
+                                <option>ELECTRONICS</option>
+                            </optgroup>
+                             <optgroup label ="master in science ">
+                                <option>CSE</option>
+                                <option>Mech</option>
+                                <option>ENTC</option>
+                                <option>ELECTRONICS</option></optgroup>
+                            </select></td>
+                        </tr>
+    
+
+                <tr><td><label>select gender</label></td>
+                <td><input type="radio" name="gender" ></td>
+                <td><label>male</label></td>
+            <td><input type="radio" name="male"></td>
+            <td><label>female</label></td>
+            <td><input type="radio" name="female"></td>
+            <td><label>other</label></td>
+            <td><input type="radio" name="other"></td>
+        </tr>
+            <tr><td><label>select training</label></td>
+            <td><input type="checkbox" ></td>
+            <td><label>JAVA</label></td>
+        <td><input type="checkbox" name="JAVA"></td>
+        <td><label>angular</label></td>
+        <td><input type="checkbox" name="angular"></td>
+        <td><label>testing</label></td>
+        <td><input type="checkbox" name="testing" ></td>
+        <td><label>c++</label></td>
+        <td><input type="checkbox" name="c++"></td></tr>
+                <tr>
+                    <td> <input type="submit"></td>
+                    <td> <input type="reset"></td>
+                </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        </form>
+    </body>
+</html>
+       
+       
+       
